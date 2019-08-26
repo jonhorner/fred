@@ -1,0 +1,1432 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>Sidebar Plugins - Fred</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#sidebar-plugins" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Fred" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Fred
+              </span>
+              <span class="md-header-nav__topic">
+                Sidebar Plugins
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/modxcms/fred/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      modxcms/fred
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Fred" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Fred
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/modxcms/fred/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      modxcms/fred
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="What is Fred?" class="md-nav__link">
+      What is Fred?
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../fred_for_existing_modxers/" title="Fred for Existing MODXers" class="md-nav__link">
+      Fred for Existing MODXers
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../getting_started/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../templates/" title="MODX Templates & Fred" class="md-nav__link">
+      MODX Templates & Fred
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../elements/" title="Elements" class="md-nav__link">
+      Elements
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../blueprints/" title="Blueprints" class="md-nav__link">
+      Blueprints
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Fred for Themers
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Fred for Themers
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/" title="Intro to Fred Themes" class="md-nav__link">
+      Intro to Fred Themes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/themes/" title="Theme Creation Tutorial" class="md-nav__link">
+      Theme Creation Tutorial
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/convert-to-fred/" title="Convert Existing Sites to Fred" class="md-nav__link">
+      Convert Existing Sites to Fred
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/templates/" title="MODX Templates for Fred" class="md-nav__link">
+      MODX Templates for Fred
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-5" type="checkbox" id="nav-7-5">
+    
+    <label class="md-nav__link" for="nav-7-5">
+      Elements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="6">
+      <label class="md-nav__title" for="nav-7-5">
+        Elements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/elements/" title="Elements" class="md-nav__link">
+      Elements
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/elements/markup/" title="HTML Markup & Twig" class="md-nav__link">
+      HTML Markup & Twig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/elements/attributes/" title="HTML Attributes" class="md-nav__link">
+      HTML Attributes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/elements/js_events/" title="JS Events" class="md-nav__link">
+      JS Events
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-6" type="checkbox" id="nav-7-6">
+    
+    <label class="md-nav__link" for="nav-7-6">
+      Options
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="7">
+      <label class="md-nav__title" for="nav-7-6">
+        Options
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/options/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/options/settings/" title="Settings" class="md-nav__link">
+      Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/options/import/" title="Importing into Option Sets" class="md-nav__link">
+      Importing into Option Sets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/options/override/" title="Overriding Option Settingss" class="md-nav__link">
+      Overriding Option Settingss
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/rte_configs/" title="RTE Configs" class="md-nav__link">
+      RTE Configs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/media_sources/" title="Media Sources" class="md-nav__link">
+      Media Sources
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/system_settings/" title="System Settings" class="md-nav__link">
+      System Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-10" type="checkbox" id="nav-7-10">
+    
+    <label class="md-nav__link" for="nav-7-10">
+      Manager 3PC
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="11">
+      <label class="md-nav__title" for="nav-7-10">
+        Manager 3PC
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/elements/" title="Elements" class="md-nav__link">
+      Elements
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/element_categories/" title="Element Categories" class="md-nav__link">
+      Element Categories
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/option_sets/" title="Option Sets" class="md-nav__link">
+      Option Sets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/rte_configs/" title="RTE Configs" class="md-nav__link">
+      RTE Configs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/rebuild/" title="Rebuild" class="md-nav__link">
+      Rebuild
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/blueprints/" title="Blueprints" class="md-nav__link">
+      Blueprints
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/blueprint_categories/" title="Blueprint Categories" class="md-nav__link">
+      Blueprint Categories
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/themes/" title="Building Themes" class="md-nav__link">
+      Building Themes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/themed_templates/" title="Themed Templates" class="md-nav__link">
+      Themed Templates
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/media_sources/" title="Media Sources" class="md-nav__link">
+      Media Sources
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../themer/cmp/theme_settings_and_resolvers/" title="Theme Settings, Extract Templates & Resolvers" class="md-nav__link">
+      Theme Settings, Extract Templates & Resolvers
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-11" type="checkbox" id="nav-7-11">
+    
+    <label class="md-nav__link" for="nav-7-11">
+      Collaborating on Themes
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="12">
+      <label class="md-nav__title" for="nav-7-11">
+        Collaborating on Themes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../collab/" title="Intro to Collaborating" class="md-nav__link">
+      Intro to Collaborating
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../collab/gitify/" title="Setting up Gitify" class="md-nav__link">
+      Setting up Gitify
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../collab/initial_extract/" title="Getting your Theme in Git" class="md-nav__link">
+      Getting your Theme in Git
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../collab/gitify_in_action/" title="Basic Gitify Usage" class="md-nav__link">
+      Basic Gitify Usage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../collab/pr_workflow/" title="Advaced Gitify with PRs" class="md-nav__link">
+      Advaced Gitify with PRs
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Fred for Site Admins
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Fred for Site Admins
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8-1" type="checkbox" id="nav-8-1">
+    
+    <label class="md-nav__link" for="nav-8-1">
+      Protecting access with ACLs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-1">
+        Protecting access with ACLs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../site_admin/acls/howto/" title="How To" class="md-nav__link">
+      How To
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../site_admin/acls/permissions/" title="Permissions" class="md-nav__link">
+      Permissions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../site_admin/acls/policies/" title="Default Policies" class="md-nav__link">
+      Default Policies
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" checked>
+    
+    <label class="md-nav__link" for="nav-9">
+      Fred Plugin Development
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Fred Plugin Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="Intro" class="md-nav__link">
+      Intro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../modx_events/" title="MODX Events" class="md-nav__link">
+      MODX Events
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../toolbar_plugins/" title="Toolbar Plugins" class="md-nav__link">
+      Toolbar Plugins
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Sidebar Plugins
+      </label>
+    
+    <a href="./" title="Sidebar Plugins" class="md-nav__link md-nav__link--active">
+      Sidebar Plugins
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#init-function" title="Init function" class="md-nav__link">
+    Init function
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" title="Example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#icons-menus" title="Icons &amp; Menus" class="md-nav__link">
+    Icons &amp; Menus
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menus" title="Menus" class="md-nav__link">
+    Menus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sidebar-plugin-order" title="Sidebar Plugin Order" class="md-nav__link">
+    Sidebar Plugin Order
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#register-your-plugin" title="Register your Plugin" class="md-nav__link">
+    Register your Plugin
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" title="Example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-plugin-class" title="The Plugin class" class="md-nav__link">
+    The Plugin class
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-data" title="Custom Data" class="md-nav__link">
+    Custom Data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../credits/" title="Credits" class="md-nav__link">
+      Credits
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#init-function" title="Init function" class="md-nav__link">
+    Init function
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" title="Example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#icons-menus" title="Icons &amp; Menus" class="md-nav__link">
+    Icons &amp; Menus
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#menus" title="Menus" class="md-nav__link">
+    Menus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sidebar-plugin-order" title="Sidebar Plugin Order" class="md-nav__link">
+    Sidebar Plugin Order
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#register-your-plugin" title="Register your Plugin" class="md-nav__link">
+    Register your Plugin
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example_1" title="Example" class="md-nav__link">
+    Example
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-plugin-class" title="The Plugin class" class="md-nav__link">
+    The Plugin class
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#custom-data" title="Custom Data" class="md-nav__link">
+    Custom Data
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/modxcms/fred/edit/master/docs/developer/sidebar_plugins.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="sidebar-plugins">Sidebar Plugins</h1>
+<p>Fred supports adding functionality to the Sidebar by adding Sidebar plugins.</p>
+<p>Plugins are distributed as MODX Transport Packages, which can be submitted to the <a href="https://modx.com/extras">MODX Extras repository</a> or uploaded manually from the Installer inside the Manager. You can learn more about <a href="https://docs.modx.com/revolution/2.x/case-studies-and-tutorials/developing-an-extra-in-modx-revolution">how to build Transport Packages</a> in the MODX Documentation, or use a tool like <a href="https://theboxer.github.io/Git-Package-Management/">Git Package Management</a> to help create Transport Packages.</p>
+<h2 id="init-function">Init function</h2>
+<p>To initialise your plugin start by creating an <code>init</code> function that will be called by Fred. An <code>init</code> function takes three arguments:</p>
+<ul>
+<li><code>fred</code> – a reference to the main Fred class</li>
+<li><code>SidebarPlugin</code> – the SidebarPlugin class that your plugin has to extend</li>
+<li><code>pluginTools</code> – a set of tools you can use in your Plugin to create content and save data. <a href="https://github.com/modxcms/fred/blob/master/_build/assets/js/Utils.js#L374-L387">View the source code on Github</a> for a list of available classes, instances and functions which can be used, including:</li>
+<li><code>valueParser</code> – parses Template Variables (such as <code>{{theme_dir}}</code>) and replaces them with the correct value based on the given parameters</li>
+<li><code>ui</code> – a set of UI elements and inputs to use, including</li>
+<li><code>emitter</code> – emits or listen for events</li>
+<li><code>Modal</code> – a class to create a modal window</li>
+<li><code>fetch</code> – use to make XHR requests</li>
+<li><code>fredConfig</code> – an instance of <code>fredConfig</code></li>
+<li><code>utilitySidebar</code> – creates a sidebar, like the one used for Element settings</li>
+<li><code>actions</code> - predefined Fred XHR requests</li>
+<li><code>Mousetrap</code> - library for keyboard shortcuts</li>
+</ul>
+<p>The <code>init</code> function must return a class that extends the SidebarPlugin.</p>
+<h3 id="example">Example</h3>
+<pre><code class="javascript">var TestSidebarPluginInit = function(fred, SidebarPlugin, pluginTools) {
+    class TestSidebarPlugin extends SidebarPlugin {
+        static title = 'TestPlugin';
+        static icon = 'fred--sidebar_more';
+        static expandable = true;
+
+        init() {
+            this.content = this.render();
+        }
+
+        click() {
+            return this.content;
+        }
+
+        render () {
+            const moreList = pluginTools.ui.els.dl();
+
+            const helpLink = pluginTools.ui.els.a('fred.fe.more.help', 'fred.fe.more.help', 'https://modxcms.github.io/fred/');
+            helpLink.target = '_blank';
+
+            moreList.appendChild(pluginTools.ui.els.dt(helpLink));
+
+            return moreList;
+        }
+    }
+
+    return TestSidebarPlugin;
+};
+</code></pre>
+
+<p>This will create an additional sidebar icon before the <code>More</code> item in the sidebar with the same icon as the More item, three dots.</p>
+<h2 id="icons-menus">Icons &amp; Menus</h2>
+<p>Sidebar icons are <code>dt</code> HTML elements with specific classes. For example, the Settings button from the Sidebar is marked up as follows:</p>
+<pre><code class="html">&lt;dt class=&quot;fred--sidebar_page_settings&quot; tabindex=&quot;0&quot; role=&quot;tab&quot;&gt;Settings&lt;/dt&gt;
+</code></pre>
+
+<p>The CSS class <code>fred--sidebar_page_settings</code> determines the appearance of the button. To style a new toolbar icon, you need to target the psuedo element <code>::before</code> in your plugin’s CSS with inline SVG code for a background image:  </p>
+<pre><code class="css">.fred .fred--sidebar_page_settings:before {
+    background: url(data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 …35.888-80 80 35.888 80 80 80 80-35.888 80-80z' fill='%23fff'/%3E%3C/svg%3E) center center no-repeat;
+}
+</code></pre>
+
+<p>Any custom CSS file for your plugin including a custom icon like the above, and other styles needed for the plugin, can be included the same way as the JavaScript file in <a href="#register-your-plugin">Register your Plugin</a> step, below.</p>
+<p>Fred’s default icons are the SVG versions of <a href="https://fontawesome.com/icons?d=gallery">Font Awesome 5 icons</a>. You can download the SVG of any icon from its detailed page.</p>
+<h3 id="menus">Menus</h3>
+<p>If your plugin needs a menu similar to the Elements or Settings, they are defined inside the <code>dd</code> HTML elements. For example, the Settings menu begins as follows:</p>
+<pre><code class="html">&lt;dd&gt;
+    &lt;h3 class=&quot;&quot;&gt;Settings&lt;/h3&gt;
+    &lt;form class=&quot;fred--page_settings_form&quot;&gt;
+        &lt;fieldset class=&quot;&quot;&gt;
+            &lt;label class=&quot;&quot;&gt;Page Title&lt;input class=&quot;&quot; type=&quot;text&quot;&gt;&lt;/label&gt;
+            …
+</code></pre>
+
+<h3 id="sidebar-plugin-order">Sidebar Plugin Order</h3>
+<p>The buttons registered to the sidebar are always added before the <code>More</code> button. If there are multiple Sidebar Plugins registered, they will render in the order of the MODX Plugin’s rank in the MODX Manager.</p>
+<h2 id="register-your-plugin">Register your Plugin</h2>
+<p>When you have the <code>init</code> function returning your plugin's class, you need to register it for Fred by creating a MODX Plugin on the <code>[FredBeforeRender](/developer/modx_events#fredbeforerender)</code> event.</p>
+<p>Include the JS file containing the init function using <a href="/developer/modx_events#includes">includes</a> and registering the Plugin using <a href="/developer/modx_events#beforerender"><code>beforeRender</code></a>.</p>
+<p>To register the toolbar Plugin, you call the <code>registerSidebarPlugin</code> function from Fred with two arguments:</p>
+<ul>
+<li><code>name</code> - a unique name for your plugin. Fred cannot register multiple Plugins with the same name.</li>
+<li><code>init function</code> - the <code>TestSidebarPluginInit</code> function we created in <a href="#init-function"><code>Init function</code></a> step, above</li>
+</ul>
+<h3 id="example_1">Example</h3>
+<pre><code class="php">$includes = '
+    &lt;script type=&quot;text/javascript&quot; src=&quot;/path/to/plugin/file.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/path/to/stylsheet/style.css&quot; /&gt;
+';
+
+$beforeRender = '
+    this.registerSidebarPlugin(&quot;TestSidebarPlugin&quot;, TestSidebarPluginInit);
+';
+
+$modx-&gt;event-&gt;_output = [
+    'includes' =&gt; $includes,
+    'beforeRender' =&gt; $beforeRender
+];
+</code></pre>
+
+<h2 id="the-plugin-class">The Plugin class</h2>
+<p>The sample Class in the <a href="#init-function"><code>Init function</code></a> step above can do much more than just show a link to Help page. In fact, much of Fred's functionality is already coded as Plugins. To review the current Sidebar Plugins for a sense of how to create your own, <a href="https://github.com/modxcms/fred/tree/master/_build/assets/js/Components/Sidebar">review the source code on Github</a>.</p>
+<h3 id="custom-data">Custom Data</h3>
+<p>Your Plugin can save and load custom data when the page is saved. Be aware, though, that custom data is only saved when a user saves the entire page.</p>
+<p>To save your plugin's data call <code>pluginTools.fredConfig.setPluginsData('Namespace', 'VariableName', 'Data')</code>. This function takes three arguments:</p>
+<ul>
+<li><code>namespace</code> - for most cases, use the Plugin's name or something unique to prevent data from being overwritten by another Plugin</li>
+<li><code>name</code> - the name of the variable where you want to save the data</li>
+<li><code>value</code> - the actual data to store</li>
+</ul>
+<p>To load data, call <code>pluginTools.fredConfig.getPluginsData('Namespace', 'VariableName')</code> which takes two arguments:</p>
+<ul>
+<li><code>namespace</code> - the same namespace used when calling <code>setPluginsData</code></li>
+<li><code>name</code> - the same name used when calling <code>setPluginsData</code></li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../toolbar_plugins/" title="Toolbar Plugins" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Toolbar Plugins
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../credits/" title="Credits" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Credits
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2018-2019 <a href="https://modx.com" title="MODX">MODX</a>
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://fred.modx.com" class="md-footer-social__link fa fa-globe"></a>
+    
+      <a href="https://github.com/modxcms" class="md-footer-social__link fa fa-github-alt"></a>
+    
+      <a href="https://twitter.com/modx" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://www.facebook.com/modxcms" class="md-footer-social__link fa fa-facebook"></a>
+    
+      <a href="https://linkedin.com/company/modx" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
