@@ -688,6 +688,26 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#setting-name-conventions" title="Setting Name Conventions" class="md-nav__link">
+    Setting Name Conventions
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#joining-multiple-words-in-setting-names" title="Joining Multiple Words in Setting Names" class="md-nav__link">
+    Joining Multiple Words in Setting Names
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1383,6 +1403,26 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#setting-name-conventions" title="Setting Name Conventions" class="md-nav__link">
+    Setting Name Conventions
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#joining-multiple-words-in-setting-names" title="Joining Multiple Words in Setting Names" class="md-nav__link">
+    Joining Multiple Words in Setting Names
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1557,6 +1597,15 @@
 }
 </code></pre>
 
+<h3 id="setting-name-conventions">Setting Name Conventions</h3>
+<p>Since the frontend is rendered through Twig, all <code>"name"</code> values need to follow JavaScript conventions. This primarily means hyphens, spaces and other special characters are not allowed as they may have reserved functions in JavaScript. </p>
+<h4 id="joining-multiple-words-in-setting-names">Joining Multiple Words in Setting Names</h4>
+<p><strong>Underscore:</strong></p>
+<p>cta_title, cta_image, cta_link</p>
+<p><strong>Upper Camel Case (Pascal Case):</strong></p>
+<p>CtaTitle, CtaImage, CtaLink</p>
+<p><strong>Lower Camel Case:</strong></p>
+<p>ctaTitle, ctaImage, ctaLink</p>
 <h2 id="example-option-set-with-settings">Example Option Set with Settings</h2>
 <pre><code class="json">{
     &quot;remote&quot;: true,
